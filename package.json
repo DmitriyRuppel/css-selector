@@ -1,0 +1,17 @@
+{
+  "name": "css-selector-generator",
+  "version": "1.0.0",
+  "description": "Generates unique CSS selector for any DOM element",
+  "main": "/code/src/index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  }
+}

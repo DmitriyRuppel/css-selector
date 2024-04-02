@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+  nodejs:
+    build:
+      context: .build/docker/nodejs
+    container_name: wrs-nodejs
+    volumes:
+      - ./:/code:cached
